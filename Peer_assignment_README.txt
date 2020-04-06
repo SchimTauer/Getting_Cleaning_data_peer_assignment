@@ -10,7 +10,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit√† degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
@@ -187,11 +187,13 @@ write.table(df_grouped_mean, "Peer_assignment_Week4_Tim_Schauer.txt", row.names 
 The GitHub repo contains the following data:
 =========================================
 
-- 'README.txt'
+- 'peer_assignment_README.txt'
 
-- 'codebook.txt': Shows information about the variables used in the  data set
+- 'peer_assignment_codebook.txt': Shows information about the variables used in the  data set
 
-- 'peer_assignment_week4_Tim_Schauer.txt': contains the tidy data set created in step 5
+- 'peer_assignment_tidy-data-step5_Tim_Schauer.txt': contains the tidy data set created in step 5
+
+- 'run_analysis.R': provides the code for the downstream process of the original data to create a tidy data step
 
 
 Notes: 
