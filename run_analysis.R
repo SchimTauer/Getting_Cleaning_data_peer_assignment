@@ -81,5 +81,3 @@ library(dplyr)
 df_grouped_mean <- df_mean_std %>% group_by(subject) %>% group_by(activity, add=TRUE) %>% summarise_all(funs(mean))
 
 write.table(df_grouped_mean, "Peer_assignment_Week4_Tim_Schauer.txt", row.names = FALSE)
-
-names(df_grouped_mean)
